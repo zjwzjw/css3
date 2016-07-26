@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+    *{
+    	margin: 0;
+    	padding: 0;
+    }
+    html,body{     
+    	width: 100%;
+    	height: 100%;
+    }   /* 给浏览器设置高度和宽度*/
+    body{
+    	display: -webkit-box;
+    	-webkit-box-orient: vertical;
+    }
+
+    #top, #bottom{
+    	width: 100%;
+    	height: 50px;
+    	background: #ccc;
+    }
+	
+    #content{
+    	-webkit-box-flex:1;
+    		width: 100%;
+    		background: #f00;
+    }
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+<div id="top">top</div>
+<div id="content">content</div>
+<div id="bottom">bottom</div>
+</body>
+</html>
